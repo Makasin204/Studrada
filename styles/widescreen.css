@@ -972,6 +972,9 @@
         margin: 36px 0;
         font-size: 18px;
     }
+    .ab {
+        width: 53%;
+    }
     .pr-banner_btn_container {
         display: flex;
         flex-direction: column;
@@ -1496,3 +1499,27 @@ a{
     
 }
 /*                    Contacts                       */
+
+.about-us_text a{
+    color: #1C5D8F;
+    text-decoration: none;
+}
+.document {
+    padding: 40px 0 70px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+iframe {
+    height: 74vh;
+    width: 68%;
+    margin-top:10px ;
+}
+ul {
+    padding-left: 20px;
+}
+.lead-card {
+    display: none;
+}
