@@ -1421,7 +1421,7 @@ a{
     margin-bottom: 50px;
 }
 .head_wrapper{
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -1429,13 +1429,12 @@ a{
     flex-shrink: 1;
 }
 .head_card{
-    margin: 25px;
+    margin: 15px;
 }
 .head_card_image{
-    width: 314px;
-    height: 366px;
+    max-width: 275px;
     border: 0px;
-    border-radius: 40px;
+    border-radius: 34px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1446,12 +1445,13 @@ a{
     scale: 102%;
 }
 .head_card_name{
-    font-size: 28px;
+    font-size: 26px;
     color: #305E8C;
     margin-bottom: 5px;
 }
 .head_card_desription{
-    font-size: 16px;
+    font-size: 15px;
+   letter-spacing: 0.5px
     text-transform: uppercase;
     color: #EA8353;
 }
