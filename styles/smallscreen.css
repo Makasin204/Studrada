@@ -3076,12 +3076,18 @@
         display: none;
 
     }
-    #toggle:checked + .nav_items {
+      #toggle:checked + .nav_items {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-
         background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
+    }
+    
+    #toggle:checked + #nav_items {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-image: linear-gradient(45deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.8) 100%);
     }
     #toggle:checked + label {
         display: none;
