@@ -1,4 +1,14 @@
 @media only screen and (max-width: 798px){
+    
+    iframe {
+        height: 65vh;
+        width: 80%;
+        margin-top:8px ;
+        margin-bottom: 30px;
+    }
+    .document {
+        padding: 0;
+    }
     .small {
         visibility: visible;
     }
@@ -1819,7 +1829,9 @@
         line-height: 1.4;
         font-size: 17px;
     }
-    
+      .ab-list {
+      text-align: left;
+    }
     
     /* ----------------------- departments ----------------------- */
     
@@ -3068,6 +3080,9 @@
     
 }
 @media only screen and (max-width: 645px) {
+     .ab-banner {
+        padding: 100px 0 10px 0 !important;
+    }
     label {
         display: block;
         cursor: pointer;
