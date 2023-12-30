@@ -1024,6 +1024,9 @@
     }
 
     @media only screen and (min-width: 1041px ) and (max-width: 1278px) {
+       .head_wrapper{
+            width: 80%;
+        }
         .banner {
             background-image: url("../images/home_banner.svg");
             background-size: 46% auto;  /* Set width to 1000px and height to auto */
@@ -1273,11 +1276,19 @@
             height: 15px;
         }
         .head_card_image{
-            width: 250px;
-            height: 291px;
+            width: 280px;
+            border-radius: 28px;
         }
-        .head_card_desription {
-            font-size: 12px;
+    }
+ @media screen and (max-width: 830px) {
+        .head_card_image{
+            border-radius: 26px;
+        }
+        .head_card_desription{
+            font-size: 13px;
+        }
+        .head_card_name{
+            font-size: 22px;
         }
     }
 
