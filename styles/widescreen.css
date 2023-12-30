@@ -20,6 +20,9 @@
         }
     
     @media only screen and (min-width: 1279px ) and (max-width: 1378px) {
+    .head_card_image{
+            max-width: 220px !important;
+    }   
     .banner {
         background-image: url("../images/home_banner.svg");
         background-size: 40% auto;  /* Set width to 1000px and height to auto */
@@ -1357,7 +1360,7 @@ a{
 .head_wrapper{
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     flex-shrink: 1;
@@ -1366,7 +1369,7 @@ a{
     margin: 15px;
 }
 .head_card_image{
-    max-width: 275px;
+    max-width: 245px;
     border: 0px;
     border-radius: 34px;
     background-position: center;
@@ -1379,13 +1382,12 @@ a{
     scale: 102%;
 }
 .head_card_name{
-    font-size: 26px;
+    font-size: 24px;
     color: #305E8C;
     margin-bottom: 5px;
 }
 .head_card_desription{
-    font-size: 15px;
-   letter-spacing: 0.5px
+    font-size: 14px;
     text-transform: uppercase;
     color: #EA8353;
 }
